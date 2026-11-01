@@ -1,0 +1,12 @@
+
+version: 2
+
+sources:
+  - name: survey_data
+    database: big-data-dev-01-512408
+    schema: Ikram
+    tables:
+      - name: parquet_main_table
+      - name: parquet_interests
+      - name: parquet_pyhton_topics
+      - name: parquet_learning_style
